@@ -6,7 +6,7 @@
 
 .container {
   display: flex;
-  border: black solid 3px;
+  border: black solid 1px;
   height: 100px;
   width: 100%;
   justify-content: space-around;
@@ -14,16 +14,28 @@
   width: 1515px;
 }
 
-section {
-  display: flex;
-  border: black solid 3px;
-  margin-top: 10px;
-  width: 1515px;
-}
-
-.html{
+.html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 350px;
+  height: 800px;
+  margin-left: 15px;
+}
+
+.listadetags {
+  margin-left: 15px;
+}
+
+.menu {
+  text-decoration: none;
+  margin-left: 15px;
+  border: lightseagreen solid;
+  border-radius: 10%;
+}
+
+section {
+  display: flex;
+  border: black solid 1px;
+  margin-top: 10px;
+  width: 1515px;
 }
