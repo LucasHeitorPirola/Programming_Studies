@@ -4,21 +4,37 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: rgb(34, 30, 30);
+  color: white ;
+}
+
+button {
+  margin-left: 15px;
+  border: yellow solid 2px;
+  border-radius: 10%;
+}
+
+button:hover {
+  border: transparent;
+}
+
 .container {
   display: flex;
   border: black solid 1px;
+  border-radius: 1%;
   height: 100px;
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  width: 1515px;
+  width: 1500px;
 }
 
 .html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 800px;
+  height: 900px;
   margin-left: 15px;
 }
 
@@ -28,14 +44,13 @@
 
 .menu {
   text-decoration: none;
-  margin-left: 15px;
-  border: lightseagreen solid;
-  border-radius: 10%;
 }
 
 section {
   display: flex;
   border: black solid 1px;
+  border-radius: 5%;
   margin-top: 10px;
-  width: 1515px;
+  width: 800px;
+  flex-wrap: wrap;
 }
